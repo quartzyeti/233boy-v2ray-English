@@ -1,7 +1,7 @@
 #!/bin/bash
 
-author=233boy
-# github=https://github.com/233boy/v2ray
+author=quartzyeti
+# github=https://github.com/quartzyeti/233boy-v2ray-English
 
 # bash fonts colors
 red='\e[31m'
@@ -34,8 +34,8 @@ _mkdir() {
     mkdir -p "$@"
 }
 
-is_err=$(_red_bg 错误!)
-is_warn=$(_red_bg 警告!)
+is_err=$(_red_bg errors!)
+is_warn=$(_red_bg warnings!)
 
 err() {
     echo -e "\n$is_err $@\n"
@@ -72,7 +72,7 @@ amd64 | x86_64)
     caddy_arch="arm64"
     ;;
 *)
-    err "此脚本仅支持 64 位系统..."
+    err "This script is only supported on 64-bit systems..."
     ;;
 esac
 

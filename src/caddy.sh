@@ -6,8 +6,8 @@ caddy_config() {
         cat >$is_caddyfile <<-EOF
 # don't edit this file #
 # for more info, see https://233boy.com/$is_core/caddy-auto-tls/
-# 不要编辑这个文件 #
-# 更多相关请阅读此文章: https://233boy.com/$is_core/caddy-auto-tls/
+# Don't edit this file. #
+# For more on this please read this post: https://233boy.com/$is_core/caddy-auto-tls/
 # https://caddyserver.com/docs/caddyfile/options
 {
   admin off
