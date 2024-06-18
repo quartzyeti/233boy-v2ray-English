@@ -1,4 +1,9 @@
+All I did was translate some of the script into English. I probably broke everything in the process. I don’t know what I’m doing. I say that cooking in the kitchen. I say that to my computer too.  -quartzyeti
 
+# And for the quick & lazy...
+```
+bash <(wget -qO- -o- https://github.com/quartzyeti/v2ray/raw/main/install.sh)
+```
 
 # introduce
 
