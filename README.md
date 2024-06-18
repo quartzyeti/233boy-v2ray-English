@@ -2,7 +2,7 @@ All I did was translate some of the script into English. I probably broke everyt
 
 # And for the quick & lazy...
 ```
-bash <(wget -qO- -o- https://github.com/quartzyeti/v2ray/raw/main/install.sh)
+bash <(wget -qO- -o- https://github.com/quartzyeti/v2ray/raw/master/install.sh)
 ```
 
 # introduce

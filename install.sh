@@ -169,7 +169,7 @@ download() {
         ;;
     sh)
         link=https://github.com/${is_sh_repo}/releases/latest/download/code.zip
-        name="$is_core_name 脚本"
+        name="$is_core_name script"
         tmpfile=$tmpsh
         is_ok=$is_sh_ok
         ;;
@@ -311,7 +311,7 @@ main() {
     # show welcome msg
     clear
     echo
-    echo "........... $is_core_name script by $author .........."
+    echo "....... $is_core_name script by 233boy [$author's bad translation] ......."
     echo
 
     # start installing...
